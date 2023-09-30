@@ -136,6 +136,10 @@ Polymorphism is demonstrated in this project through the following ways:
 - `Mammal` and `Oviparous` are interfaces defining common behavior.
 - `Food` interface and food classes are used for feeding animals based on their types.
 
+## UML Diagram
+Below is a UML diagram representing the project's class structure:
+![UML Diagram](uml-diagram.png)
+
 ## Conclusion
 
 This project demonstrates key OOP concepts such as inheritance, polymorphism, encapsulation, and the use of interfaces in a practical scenario. It models a pet management system where different animals interact with their environments and food. Understanding these concepts is essential for designing robust and maintainable software systems.
