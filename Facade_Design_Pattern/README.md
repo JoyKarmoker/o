@@ -106,7 +106,7 @@ The Facade design pattern is implemented in the `BankService` class. It provides
 
 
 ## 5. UML Diagram <a name= "uml-diagram"></a>
-![UML Diagram](/uml_diagram.png)
+![UML Diagram](uml-diagram.png)
 
 ## 6. How to Use <a name="how-to-use"></a>
 To use this project, follow these steps:
