@@ -12,8 +12,9 @@
     - [Customer Class](#customer-class)
 4. [Implementation Details](#implementation-details)
     - [Facade Design Pattern](#facade-design-pattern)
-5. [How to Use](#how-to-use)
-6. [Conclusion](#conclusion)
+5. [UML Diagram](#uml-diagram)
+6. [How to Use](#how-to-use)
+7. [Conclusion](#conclusion)
 
 ## 1. Introduction <a name="introduction"></a>
 This README provides a detailed explanation of the Object-Oriented Design Pattern project for a Banking Service with the implementation of the Facade design pattern. The project consists of multiple classes and interfaces that work together to manage various bank accounts, including checking, saving, and investment accounts.
@@ -103,10 +104,14 @@ The `Customer` class contains the `main` method, where the interaction with the 
 ### Facade Design Pattern <a name="facade-design-pattern"></a>
 The Facade design pattern is implemented in the `BankService` class. It provides a simplified and unified interface to interact with various types of bank accounts. By encapsulating the creation and management of different account types, the facade pattern abstracts the complexities from the customer.
 
-## 5. How to Use <a name="how-to-use"></a>
+
+## 5. UML Diagram <a name= "uml-diagram"></a>
+![UML Diagram](/uml_diagram.png)
+
+## 6. How to Use <a name="how-to-use"></a>
 To use this project, follow these steps:
 1. Compile all the Java files.
 2. Run the `Customer` class, which demonstrates the use of the `BankService` facade to create accounts, perform transactions, and check balances.
 
-## 6. Conclusion <a name="conclusion"></a>
+## 7. Conclusion <a name="conclusion"></a>
 This project showcases the implementation of the Facade design pattern in a banking system with multiple account types. It provides an organized and simplified interface for customers to manage their accounts, making it easier to extend and maintain the system in the future. The use of interfaces and classes adheres to Object-Oriented Design principles, promoting modularity and code reusability.
